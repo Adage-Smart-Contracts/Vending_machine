@@ -3,7 +3,7 @@ const vendingMachineABI = [{"inputs":[],"stateMutability":"nonpayable","type":"c
 const vendingMachineContract = (web3) => {
   return new web3.eth.Contract(
     vendingMachineABI,
-    "0x6A4745C69DE0796Cbbe95827E9c23dba5c8646D4"
+    "0xE57695fD8eFCa34C7cf0Bb4231c646a505f305eF"
   )
 }
 
